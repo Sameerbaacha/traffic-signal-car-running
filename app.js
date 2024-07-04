@@ -13,7 +13,7 @@ function start() {
             stop();
             mar = 0;
         } else {
-            mar += 10;
+            mar += 5;
             car.style.marginLeft = mar + "px";
         }
     }, 100);
