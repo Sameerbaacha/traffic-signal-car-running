@@ -5,7 +5,7 @@ var startButton = document.getElementById("startButton");
 var stopButton = document.getElementById("stopButton");
 var screenWidth = window.innerWidth;
 var carWidth = car.offsetWidth;
-var cardistancefromend = 50; // Distance between car and screen edge
+var cardistancefromend = 17; // Distance between car and screen edge
 
 function start() {
     interval = setInterval(function () {
